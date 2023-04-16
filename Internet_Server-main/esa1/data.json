@@ -1,0 +1,35 @@
+{
+  "personen": [
+    {
+      "vorname": "Max",
+      "nachname": "Mustermann",
+      "telefonnummer": "555-555-1234",
+      "email": "max.mustermann@example.com"
+    },
+    {
+      "vorname": "Lisa",
+      "nachname": "Müller",
+      "telefonnummer": "555-555-5678",
+      "email": "lisa.mueller@example.com"
+    
+    },
+    {
+      "vorname": "Peter",
+      "nachname": "Schmidt",
+      "telefonnummer": "555-555-6785",
+      "email": "peter.schmidt@example.com"
+    },
+    {
+      "vorname": "Hans",
+      "nachname": "Müller",
+      "telefonnummer": "555-555-1548",
+      "email": "hans.müller@example.com"
+    },
+    {
+      "vorname": "Karl",
+      "nachname": "Müller",
+      "telefonnummer": "555-555-5847",
+      "email": "karl.müller@example.com"
+    }
+  ]
+}
