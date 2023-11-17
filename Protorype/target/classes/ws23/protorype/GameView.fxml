@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="800.0" maxWidth="700.0" minHeight="800.0" minWidth="700.0" prefHeight="800" prefWidth="700" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ws23.protorype.GameController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <top>
+        <HBox>
+            <Label text="Punktestand: " />
+            <Label fx:id="scoreLabel" />
+        </HBox>
+    </top>
+
+    <center>
+        <Canvas fx:id="field" focusTraversable="true" height="700.0" onKeyPressed="#initialize" width="500.0" />
+    </center>
+    <bottom>
+        <Button fx:id="backButton" onAction="#returnMainMenu" text="Zurück" />
+    </bottom>
+</BorderPane>
